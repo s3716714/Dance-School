@@ -18,6 +18,7 @@
             android:layout_gravity="center_horizontal" />
 
         <!--  Name Label -->
+
         <android.support.design.widget.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -56,6 +57,8 @@
                 android:hint="Password"/>
         </android.support.design.widget.TextInputLayout>
 
+
+
         <!-- Signup Button -->
         <android.support.v7.widget.AppCompatButton
             android:id="@+id/btn_signup"
@@ -63,8 +66,11 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="24dp"
             android:layout_marginBottom="24dp"
+            android:background="@drawable/rounded_btn"
+            android:fontFamily="sans-serif-medium"
             android:padding="12dp"
-            android:text="Create Account"/>
+            android:text="Create Account"
+            android:textColor="@color/accent1" />
 
         <TextView android:id="@+id/link_login"
             android:layout_width="fill_parent"
